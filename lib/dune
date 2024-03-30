@@ -1,6 +1,7 @@
 (library
  (name lib)
- (public_name defunc))
+ (public_name defunc)
+ (libraries core))
 
 (env
  (dev
