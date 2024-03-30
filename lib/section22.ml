@@ -1,7 +1,7 @@
 (** 2.2 Higher-order representations of lists *)
 
 (** Hughes' insight: represent intermediate lists as partialy applied 
-    concatenation functions:
+    concatenation functions (aka difference lists):
     - Instead of constructing a list [xs], instantiate the lambda 
       [fun ys -> xs @ ys]
     - This allows lists to be concatenated in constant time! *)
